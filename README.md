@@ -4,7 +4,7 @@ Gathers CDR information from a CSV file on the local host, parses, and then subm
 
 ### Installation
 
-This requires go installed unless you download the pre-built binary within the build directory. Currently only built for linux 64bit
+This requires go installed unless you download the pre-built binary within the release. Currently only built for linux amd64
 
 ###### Setup with pre-built file
 Setup initial .env file. Within the directory the pre-built file is located at perform the following.

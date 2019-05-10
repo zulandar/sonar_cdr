@@ -167,7 +167,7 @@ func main() {
 }
 
 func freeswitchRotateMaster() {
-	cmd := exec.Command("fs_cli -x 'cdr_csv rotate'")
+	cmd := exec.Command("/bin/fs_cli -x 'cdr_csv rotate'")
 	fmt.Println("Rotating CDR logs")
 	err := cmd.Run()
 	if err != nil {
